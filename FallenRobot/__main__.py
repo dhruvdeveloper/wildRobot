@@ -694,6 +694,7 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 chat_id=f"@{SUPPORT_CHAT}",
+                photo=START_IMG,
                 caption=f"""
 ㅤ🥀 {BOT_NAME} is here!
 """,
