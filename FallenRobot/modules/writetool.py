@@ -33,7 +33,7 @@ Successfully Written Text 💘
         )
 
 
-__mod_name__ = "WʀɪᴛᴇTᴏᴏʟ"
+__mod_name__ = "Write Tool"
 
 __help__ = """
  Writes the given text on white page with a pen 🖊
