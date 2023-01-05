@@ -28,4 +28,4 @@ async def awake(_, message: Message):
     )
 
 
-__mod_name__ = "Aʟɪᴠᴇ"
+__mod_name__ = "𝐴𝑙𝑖𝑣𝑒"
