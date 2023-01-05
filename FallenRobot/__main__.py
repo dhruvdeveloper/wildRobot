@@ -101,7 +101,7 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-*» {BOT_NAME}  Exclusive Features 
+*» {BOT_NAME}  Exclusive Features :*
 
 • /start: Starts me, can be used to check I'm alive or not.
 • /help: PM's you this message.
