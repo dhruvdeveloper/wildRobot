@@ -72,13 +72,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hey* {}, 
-
-*๏ I am* {} !
-➻ The Most Powerful telegram management bot based on python with some awesome and sexy features.
-
-──────────────────
-*๏ Click on /help to check my commands*
+â”€â”€â”€â”€ã€Œ [WÉªÊŸá´… ê­™ Ê€á´Ê™á´á´›](https://te.legra.ph/file/48a62d8e9e4505c2ea76e.mp4) ã€â”€â”€â”€â”€
+*Hey* {} ,ð–£˜ 
+   à¹ This is  ð‘¾ð’Šð‘³ð‘« ê­™ !
+   âž»The Most Powerful telegram management bot based on python with some awesome and sexy features.
+   My Owner @NotAakash 
+   Any queries??  Join Our Bot Support @GFC_SUPPORT ..
+   â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    à¹ Click on /help to check my commands
 """
 
 buttons = [
@@ -101,11 +102,11 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-*» {BOT_NAME}  Exclusive Features :*
+*Â» {BOT_NAME}  Exclusive Features :*
 
-• /start: Starts me, can be used to check I'm alive or not.
-• /help: PM's you this message.
-• /donate: Get Details about Donating which help to improve bots speeds and more.
+â€¢ /start: Starts me, can be used to check I'm alive or not.
+â€¢ /help: PM's you this message.
+â€¢ /donate: Get Details about Donating which help to improve bots speeds and more.
 Click on the buttons below to get documentation about specific modules!."""
 
 IMPORTED = {}
@@ -289,7 +290,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "» *Commands For* *{}* :\n".format(
+                "Â» *Commands For* *{}* :\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -370,22 +371,22 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "fallen_support":
         query.message.edit_text(
-            text="*๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍᴇ.*"
-            f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {BOT_NAME} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {BOT_NAME}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
+            text="*à¹ á´„ÊŸÉªá´„á´‹ á´É´ á´›Êœá´‡ Ê™á´œá´›á´›á´É´s É¢Éªá´ á´‡É´ Ê™á´‡ÊŸá´á´¡ á´›á´ É¢á´‡á´› Êœá´‡ÊŸá´© á´€É´á´… á´á´Ê€á´‡ ÉªÉ´Ò“á´Ê€á´á´€á´›Éªá´É´ á´€Ê™á´á´œá´› á´á´‡.*"
+            f"\n\nÉªÒ“ Êá´á´œ Ò“á´á´œÉ´á´… á´€É´Ê Ê™á´œÉ¢ ÉªÉ´ {BOT_NAME} á´Ê€ ÉªÒ“ Êá´á´œ á´¡á´€É´É´á´€ É¢Éªá´ á´‡ Ò“á´‡á´‡á´…Ê™á´€á´„á´‹ á´€Ê™á´á´œá´› á´›Êœá´‡ {BOT_NAME}, á´©ÊŸá´‡á´€sá´‡ Ê€á´‡á´©á´Ê€á´› Éªá´› á´€á´› sá´œá´©á´©á´Ê€á´› á´„Êœá´€á´›.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="sá´œá´©á´©á´Ê€á´›", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="á´œá´©á´…á´€á´›á´‡s", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="á´…á´‡á´ á´‡ÊŸá´á´©á´‡Ê€", url=f"tg://user?id={OWNER_ID}"
                         ),
                     ],
                     [
@@ -415,22 +416,22 @@ def Source_about_callback(update: Update, context: CallbackContext):
  This is {BOT_NAME},
 An Private Source Telegram Group Management Bot.*
 
-Written in Python With the help of  : [ᴛᴇʟᴇᴛʜᴏɴ](https://github.com/LonamiWebs/Telethon)
-[ᴩʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram)
-[ᴩʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ](https://github.com/python-telegram-bot/python-telegram-bot)
-And Using [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) And [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) As Database.
+Written in Python With the help of  : [á´›á´‡ÊŸá´‡á´›Êœá´É´](https://github.com/LonamiWebs/Telethon)
+[á´©ÊÊ€á´É¢Ê€á´€á´](https://github.com/pyrogram/pyrogram)
+[á´©Êá´›Êœá´É´-á´›á´‡ÊŸá´‡É¢Ê€á´€á´-Ê™á´á´›](https://github.com/python-telegram-bot/python-telegram-bot)
+And Using [sÇ«ÊŸá´€ÊŸá´„Êœá´‡á´Ê](https://www.sqlalchemy.org) And [á´á´É´É¢á´](https://cloud.mongodb.com) As Database.
 
 
-*Source Chahie Lode:* [ɢɪᴛʜᴜʙ](https://pornhub.com)
+*Source Chahie Lode:* [É¢Éªá´›Êœá´œÊ™](https://pornhub.com)
 
 
 {BOT_NAME} is Licensed under MIT LICENCE 
-© 2022 - 2023 [@GFC_SUPPORT](https://t.me/{SUPPORT_CHAT}),All Rights reserved.
+Â© 2022 - 2023 [@GFC_SUPPORT](https://t.me/{SUPPORT_CHAT}),All Rights reserved.
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="◁", callback_data="source_back")]]
+                [[InlineKeyboardButton(text="â—", callback_data="source_back")]]
             ),
         )
     elif query.data == "source_back":
@@ -470,7 +471,7 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "» Choose and option For getting help",
+            "Â» Choose and option For getting help",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -696,7 +697,7 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-ㅤ🥀 {BOT_NAME} is here!
+ã…¤ðŸ¥€ {BOT_NAME} is here!
 """,
                 parse_mode=ParseMode.MARKDOWN,
             )
