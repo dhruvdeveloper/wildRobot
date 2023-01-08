@@ -72,14 +72,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [Wɪʟᴅ ꭙ ʀᴏʙᴏᴛ](https://te.legra.ph/file/48a62d8e9e4505c2ea76e.mp4) 」────
-Hᴇʏ {} ,𖣘 
-๏ Tʜɪs ɪs Wɪʟᴅ ꭙ ʀᴏʙᴏᴛ !
-➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
-Mʏ Oᴡɴᴇʀ @NotAakash 
-Aɴʏ Qᴜᴇʀɪᴇs??  Join Our Bot Support @GFC_SUPPORT ..
+*Hey* {}, 
+
+*๏ I am* {} !
+➻ The Most Powerful telegram management bot based on python with some awesome and sexy features.
+
 ──────────────────
-๏ Cʟɪᴄᴋ /help ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs..
+*๏ Click on /help to check my commands*
 """
 
 buttons = [
